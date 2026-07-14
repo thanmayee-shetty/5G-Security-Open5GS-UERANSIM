@@ -280,10 +280,7 @@ pip install matplotlib numpy psutil scikit-learn reportlab
 Example
 
 ```bash
-python latency_analyzer.py \
-    --ping normal_ping.log \
-    --amf amf.log \
-    --resource resource.csv
+python latency_analyzer.py
 ```
 
 The framework automatically:
