@@ -1,0 +1,6 @@
+Scenario,RTT,Jitter,Packet Loss,CPU,Reg Delay,Classification
+Normal Baseline,14.87,1.274,0.00,10.10,25.70,Normal Traffic
+Legitimate Heavy Load,15.20,1.300,0.00,67.98,49.80,Legitimate Heavy Load
+Registration Flood (Attack),28.50,2.100,0.00,91.98,1711.54,Registration Flood Attack
+Multi-Vector Attack,309.38,53.605,58.00,93.89,49.80,Multi-Vector Attack
+Unknown Attack,203.88,26.210,3.00,25.01,25.70,Suspicious Activity

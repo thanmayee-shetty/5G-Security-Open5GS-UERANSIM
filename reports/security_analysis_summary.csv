@@ -1,0 +1,5 @@
+Scenario,Mean RTT (ms),Median RTT (ms),95th Percentile RTT (ms),Packet Loss (%),Jitter (ms),CPU Usage (%),Memory Usage (%),Registration Delay (ms),Classification
+Normal,14.87,14.85,16.80,0.00,1.274,10.10,25.04,25.70,Normal Traffic
+ICMP Flood,120.99,119.70,164.28,23.00,25.862,51.64,25.98,25.70,ICMP Flood Attack
+UDP Flood,265.81,269.20,345.96,47.00,54.908,85.90,27.03,25.70,UDP Flood Attack (GTP-U)
+Registration Flood,43.98,44.40,62.81,1.00,11.937,92.23,58.16,1562.35,Registration Flood Attack
