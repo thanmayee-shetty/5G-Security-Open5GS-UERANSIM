@@ -216,17 +216,43 @@ The framework automatically generates:
 ## Project Structure
 
 ```
-.
-├── latency_analyzer.py
-├── edgecase_refinement.py
-├── logs/
-│   ├── ping_logs
-│   ├── amf_logs
-│   └── resource_logs
-├── plots/
-├── reports/
+5G-Security-Open5GS-UERANSIM/
+│
+├── README.md
+├── requirements.txt
+│
+├── src/
+│   ├── latency_analyzer.py
+│   └── edgecase_refinement.py
+│
 ├── outputs/
-└── README.md
+│   ├── baseline/
+│   │   ├── latency_line_plot.png
+│   │   ├── latency_cdf_plot.png
+│   │   ├── latency_box_plot.png
+│   │   └── latency_heatmap_plot.png
+│   │
+│   ├── attack_analysis/
+│   │   ├── attack_impact_dashboard.png
+│   │   ├── packet_loss_comparison.png
+│   │   ├── cpu_vs_latency_scatter.png
+│   │   ├── jitter_vs_time.png
+│   │   ├── before_vs_during_attack.png
+│   │   ├── registration_delay_comparison.png
+│   │   └── control_plane_gantt.png
+│   │
+│   └── edgecase_validation/
+│       ├── realistic_correlation_matrix.png
+│       ├── cpu_vs_registration_delay_realistic.png
+│       ├── improved_unknown_attack.png
+│       ├── improved_anomaly_score.png
+│       └── edgecase_realism_validation_dashboard.png
+│
+├── reports/
+│   ├── edgecase_summary.csv
+│   ├── security_analysis_summary.csv
+│   ├── security_analysis_report.pdf
+│   └── project_report.pdf
 ```
 
 ---
